@@ -48,10 +48,22 @@ public class Individual
       
     }
     public List<Integer> getChromosomes(){
-        
+       // System.out.println("making chromosomes");
+       System.out.println(visited);
         Random rand=new Random();
-        int start =rand.nextInt(7)+1;
-        List<Integer> sublist=visited.subList(start,visited.size());
+        int start =rand.nextInt(visited.size()-1)+1;
+        int size=rand.nextInt(visited.size()-1)+1;
+       // System.out.println("start:"+start+" size:"+size);
+        List<Integer> sublist=null;
+        if(start+size>visited.size()){
+            sublist=visited.subList(start,visited.size());
+           // System.out.println("sublist1 from "+start+" to "+visited.size());
+           // System.out.println("sublist2 from "+0+" to "+(start+size-visited.size()));
+            sublist.addAll(visited.subList(0,start+size-visited.size()));
+        }else{
+        sublist=visited.subList(start,visited.size());
+    }
+    System.out.println(sublist);
         return sublist;
     }
     public Integer getNextInTour(int start){

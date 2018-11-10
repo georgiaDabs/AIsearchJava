@@ -30,8 +30,8 @@ public class Controller
                 }
             }else{running=false;}
         }
-        System.out.println(numbers);
-        System.out.println("size:"+size);
+        //System.out.println(numbers);
+        //System.out.println("size:"+size);
         for (int i=0;i<size;i++){
             for(int j=i;j<size;j++){
                 if(i!=j){

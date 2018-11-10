@@ -1,15 +1,14 @@
 #BlueJ class context
-comment0.target=Wrapper
-comment1.params=ind\ cost
-comment1.target=Wrapper(Individual,\ int)
-comment2.params=
-comment2.target=Individual\ getInd()
-comment3.params=start\ total
-comment3.target=void\ makeRange(float,\ int)
-comment4.params=x
-comment4.target=boolean\ isInRange(float)
+comment0.params=ind\ cost
+comment0.target=Wrapper(Individual,\ int)
+comment1.params=
+comment1.target=Individual\ getInd()
+comment2.params=start\ total
+comment2.target=void\ makeRange(float,\ int)
+comment3.params=x
+comment3.target=boolean\ isInRange(float)
+comment4.params=
+comment4.target=java.lang.String\ rangeText()
 comment5.params=
-comment5.target=java.lang.String\ rangeText()
-comment6.params=
-comment6.target=float\ getEnd()
-numComments=7
+comment5.target=float\ getEnd()
+numComments=6

@@ -3,8 +3,8 @@ import java.util.*;
 public class Generation
 {
     public Generation(){
-        int sizeOfPop=200;
-        Controller c=new Controller("C:/Users/GIIIIIIINGEEEEEEE/AISearch/AISearchtestcase.txt",sizeOfPop);
+        int sizeOfPop=500;
+        Controller c=new Controller("J:/AIsearchJava-master/AISearchtestcase.txt",sizeOfPop);
         List<Individual> pop=c.firstGen(c);
         System.out.println("made first gen");
         Individual best=null;
@@ -16,8 +16,8 @@ public class Generation
         bests.put(best,best.getCost(c.getArray()));
     }
     for(Individual b:bests.keySet()){
-        System.out.println("best is "+bests.get(b));
-        if(bests.get(b)>bests.get(best)){
+        //System.out.println("best is "+bests.get(b));
+        if(bests.get(b)<bests.get(best)){
             best=b;}
             
     }
