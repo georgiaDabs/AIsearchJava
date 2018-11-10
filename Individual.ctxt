@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Individual
+comment1.params=size
+comment1.target=Individual(int)
+comment10.params=
+comment10.target=void\ mutate()
+comment11.params=sublist\ parent2
+comment11.target=void\ makeFromParent(java.util.List,\ Individual)
+comment2.params=
+comment2.target=java.util.List\ getVisited()
+comment3.params=array
+comment3.target=void\ makeRandom(int[][])
+comment4.params=
+comment4.target=java.util.HashMap\ getTour()
+comment5.params=array
+comment5.target=int\ getCost(int[][])
+comment6.params=
+comment6.target=java.util.List\ getChromosomes()
+comment7.params=start
+comment7.target=java.lang.Integer\ getNextInTour(int)
+comment8.params=
+comment8.target=int\ getSize()
+comment9.params=
+comment9.target=Individual\ makeCopy()
+numComments=12

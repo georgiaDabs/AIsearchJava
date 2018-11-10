@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Generation
+comment1.params=
+comment1.target=Generation()
+comment2.params=c\ pop
+comment2.target=void\ getNextGeneration(Controller,\ java.util.List)
+numComments=3
